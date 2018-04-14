@@ -18,7 +18,7 @@
                //Redirecionamento
                header('location:index.php');
              } else {
-               echo "<div class='alert alert-danger'><b>Oh snap!</b> Change a few things up and try submitting again.</div>";
+               echo "<center><div class='alert alert-danger'><span class='closebtn' onclick='this.parentElement.style.display='none';>&times;</span>Oh snap! Change a few things up and try submitting again.</div></center>";
              }
 
       }
@@ -35,7 +35,7 @@
 
 	  <div id="login-page">
 	  	<div class="container">
-
+            <center><div class="loginerror"></div>
 		      <form class="form-login" method="post">
 		        <h2 class="form-login-heading">sign in now</h2>
 		        <div class="login-wrap">
@@ -80,17 +80,18 @@
 		                  </div>
 		              </div>
 		          </div>
+
 		          <!-- modal -->
 
 		      </form>
 
 	  	</div>
 	  </div>
-
+    </center>
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
+    <script src="assets/js/btn-close.js"></script>
     <!--BACKSTRETCH-->
     <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
     <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
