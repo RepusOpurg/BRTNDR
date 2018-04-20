@@ -19,7 +19,7 @@
                     <span>Drinks</span>
                 </a>
                 <ul class="sub">
-                    <li><a  href="general.html">Register</a></li>
+                    <li><a  href="Drink_registration.php">Register</a></li>
                     <li><a  href="buttons.html">Update</a></li>
                     <li><a  href="panels.html">Exclude</a></li>
                 </ul>
