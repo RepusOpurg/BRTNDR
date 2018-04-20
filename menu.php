@@ -15,13 +15,13 @@
 
             <li class="sub-menu">
                 <a href="javascript:;" >
-                    <i class="fa fa-desktop"></i>
-                    <span>UI Elements</span>
+                    <i class="fa fa-glass-martini"></i>
+                    <span>Drinks</span>
                 </a>
                 <ul class="sub">
-                    <li><a  href="general.html">General</a></li>
-                    <li><a  href="buttons.html">Buttons</a></li>
-                    <li><a  href="panels.html">Panels</a></li>
+                    <li><a  href="general.html">Register</a></li>
+                    <li><a  href="buttons.html">Update</a></li>
+                    <li><a  href="panels.html">Exclude</a></li>
                 </ul>
             </li>
 
@@ -69,10 +69,10 @@
             <li class="sub-menu">
                 <a href="javascript:;" >
                     <i class="fas fa-chart-line"></i>
-                    <span>Charts</span>
+                    <span>Other</span>
                 </a>
                 <ul class="sub">
-                    <li><a  href="morris.html">Morris</a></li>
+                    <li><a  href="blank.php">Blank Page</a></li>
                     <li><a  href="chartjs.html">Chartjs</a></li>
                 </ul>
             </li>
